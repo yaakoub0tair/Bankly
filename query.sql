@@ -50,4 +50,7 @@ SELECT * FROM Accounts WHERE customer_id=1;
 SELECT * FROM Accounts ORDER BY balance ASC;
 
 
+SELECT * FROM Transactions ORDER BY amount DESC;
+
+
 
