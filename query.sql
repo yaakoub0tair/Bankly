@@ -20,3 +20,5 @@ SELECT * FROM Transactions;
 
 SELECT * FROM Accounts WHERE balance >10000;
 
+SELECT * FROM Accounts WHERE balance <=0;
+
