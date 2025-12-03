@@ -37,3 +37,6 @@ WHERE a.advisor_id=2;
 
 SELECT * FROM Accounts WHERE account_type='Savings';
 
+
+SELECT * FROM Transactions WHERE amount >= 500;
+
