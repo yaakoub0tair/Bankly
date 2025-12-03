@@ -13,3 +13,7 @@ SELECT * FROM Accounts;
 
 
 SELECT account_number FROM Accounts;
+
+
+SELECT * FROM Transactions;
+
