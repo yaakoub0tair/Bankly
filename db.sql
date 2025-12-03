@@ -51,8 +51,9 @@ INSERT INTO Accounts (account_number, balance, account_type, customer_id, adviso
 (345678, 25000.00, 'Business', 2, 1),
 (901234, -50.00, 'Checking', 3, 2),
 (555111, 8000.00, 'Savings', 4, 3),
-(444222, 1200.00, 'Checking', 5, 1),
+(444222, 1200.00, 'Checking', 4, 1), 
 (333999, 30000.00, 'Business', 4, 2);
+
 
 
 
@@ -61,8 +62,8 @@ INSERT INTO Transactions (amount, transaction_type, transaction_date, account_id
 (500.00, 'credit', '2025-01-16 12:30:00', 1),
 (1000.00, 'debit', '2025-01-17 14:10:00', 2),
 (50.00, 'credit', '2025-01-20 10:00:00', 3),
-(700.00, 'debit', '2025-01-22 09:45:00', 4),
-(1200.00, 'credit', '2025-01-23 15:00:00', 5);
+(700.00, 'debit', '2025-01-22 09:45:00', 4);
+
 
 
 
