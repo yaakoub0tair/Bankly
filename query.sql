@@ -27,3 +27,6 @@ SELECT * FROM Transactions WHERE  transaction_type='debit';
 
 SELECT * FROM Transactions WHERE  transaction_type='credit';
 
+
+SELECT * FROM Transactions WHERE account_id=1;
+
