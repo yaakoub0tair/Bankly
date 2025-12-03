@@ -74,3 +74,12 @@ SELECT account_id, COUNT(*) AS total_transactions
 FROM Transactions
 GROUP BY account_id;
 
+SELECT customer_id, SUM(balance) AS total_balance
+FROM Accounts
+GROUP BY customer_id;
+
+
+ALTER TABLE Accounts
+ADD created_at Datetime;
+
+
