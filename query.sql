@@ -44,3 +44,7 @@ SELECT * FROM Transactions WHERE amount >= 500;
 SELECT * FROM Transactions WHERE amount BETWEEN 100 AND 1000; 
 
 
+SELECT * FROM Accounts WHERE customer_id=1;
+
+
+
