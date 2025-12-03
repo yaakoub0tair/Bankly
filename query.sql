@@ -61,6 +61,14 @@ SELECT * FROM Transactions ORDER BY transaction_date DESC;
 SELECT * FROM Transactions ORDER BY transaction_date DESC LIMIT 3;
 
 
+SELECT a.*, 
+    c.full_name AS Customer_name,
+    adv.full_name AS Advisor_name
+FROM Accounts a
+JOIN Customers c ON a.customer_id = c.id
+JOIN Advisors adv ON a.advisor_id = adv.id;
+
+
 
 
 
