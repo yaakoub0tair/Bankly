@@ -34,3 +34,6 @@ SELECT * FROM Transactions WHERE account_id=1;
 SELECT c.* FROM Customers c JOIN Accounts a ON c.id=a.customer_id
 WHERE a.advisor_id=2;
 
+
+SELECT * FROM Accounts WHERE account_type='Savings';
+
