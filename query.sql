@@ -17,3 +17,6 @@ SELECT account_number FROM Accounts;
 
 SELECT * FROM Transactions;
 
+
+SELECT * FROM Accounts WHERE balance >10000;
+
