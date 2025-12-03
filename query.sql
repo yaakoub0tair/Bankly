@@ -24,3 +24,6 @@ SELECT * FROM Accounts WHERE balance <=0;
 
 SELECT * FROM Transactions WHERE  transaction_type='debit';
 
+
+SELECT * FROM Transactions WHERE  transaction_type='credit';
+
