@@ -30,3 +30,7 @@ SELECT * FROM Transactions WHERE  transaction_type='credit';
 
 SELECT * FROM Transactions WHERE account_id=1;
 
+
+SELECT c.* FROM Customers c JOIN Accounts a ON c.id=a.customer_id
+WHERE a.advisor_id=2;
+
