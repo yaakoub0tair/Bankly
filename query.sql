@@ -70,5 +70,7 @@ JOIN Advisors adv ON a.advisor_id = adv.id;
 
 
 
-
+SELECT account_id, COUNT(*) AS total_transactions
+FROM Transactions
+GROUP BY account_id;
 
