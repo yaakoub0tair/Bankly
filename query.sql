@@ -47,4 +47,7 @@ SELECT * FROM Transactions WHERE amount BETWEEN 100 AND 1000;
 SELECT * FROM Accounts WHERE customer_id=1;
 
 
+SELECT * FROM Accounts ORDER BY balance ASC;
+
+
 
