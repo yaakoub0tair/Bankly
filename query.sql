@@ -55,6 +55,8 @@ SELECT * FROM Transactions ORDER BY amount DESC;
 SELECT * FROM Transactions ORDER BY amount  DESC LIMIT 5;
 
 
+SELECT * FROM Transactions ORDER BY transaction_date DESC;
+
 
 
 
