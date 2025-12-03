@@ -40,3 +40,7 @@ SELECT * FROM Accounts WHERE account_type='Savings';
 
 SELECT * FROM Transactions WHERE amount >= 500;
 
+
+SELECT * FROM Transactions WHERE amount BETWEEN 100 AND 1000; 
+
+
